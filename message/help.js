@@ -223,14 +223,14 @@ KELEBIHAN BOTZ
 
 LIST HARGA SEWA BOTZ
 ▢ PERHARI 5K
-▢ PERMINGGU 10K
-▢ PERBULAN 15K
-▢ PERMANEN 20K
+▢ PERMINGGU 8K
+▢ PERBULAN 10K
+▢ PERMANEN 15K
 MINAT HIBUNGI OWNER
-wa.me/6283890109310
+wa.me/62881024358619
 
 YG MAU TOP UP GAME CHAT NO DI BAWAH
-wa.me/6283890109310`
+wa.me/62881024358619`
 }
 exports.infoMenu = (prefix) => {
 return `
@@ -429,7 +429,7 @@ return`
 
 `}
 exports.allMenu = (prefix, cmhit, runtime, pushname, isOwner, isPremium, gcount, sender, baterai) => {
-    return `━━━━━『Akbar Botz』━━━━━
+    return `━━━━━『Aril Botz』━━━━━
 
 𝗜𝗡𝗙𝗢 𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔 𝗕𝗢𝗧
 ❏ NAMA : *${pushname}*
@@ -438,10 +438,10 @@ exports.allMenu = (prefix, cmhit, runtime, pushname, isOwner, isPremium, gcount,
 ❏ LIMIT : *${isPremium ? 'Unlimited' : `${gcount}`}*
 
 𝗜𝗡𝗙𝗢 𝗕𝗢𝗧
-❏ NAMA : *Akbarbarz*
-❏ API : @6283890109310
-❏ OWNER : *Akbarbarz*
-❏ API : *@6283890109310*
+❏ NAMA : *Aril Store*
+❏ API : @62881024358619
+❏ OWNER : *Aril Store*
+❏ API : *@62881024358619*
 ❏ TOTAL HIT : *${cmhit.length}x HIT*
 ❏ AKTIF : *${runtime(process.uptime())}*
 ❏ BATERAI : *${baterai}%*
@@ -826,4 +826,4 @@ exports.allMenu = (prefix, cmhit, runtime, pushname, isOwner, isPremium, gcount,
 *▢ ${prefix}memeindo*
 *▢ ${prefix}darkjoke*
 
-©Creator Bye Akbar Botz`}
+©Creator By aril Botz`}
