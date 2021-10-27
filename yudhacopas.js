@@ -23,10 +23,10 @@ const starts = async (dha = new WAConnection()) => {
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('[ SOURCE CODE INI DI RECODE OLEH AKBAR\nDENGAN AUTHOR AKBAR BARZ ]\n\n', 'orange'), color('\n======TERIMAKASIH BANYAK KEPADA======\n•MHANKBARBAR\n•AkbarBotz\n•HRUTZOFFC\n•KURRXD\n•NINO\n•IKYADS\n•KurrXd\n•DENARA BOT\n•DAPPAUHUY\n•DAN CREATOR BOT LAINNYA', 'yellow'))
-	console.log(color('\n\nSARAN JANGAN DI JUAL ULANG BRO\nKALAU ADA YG MINTA SURUH CHAT SAYA\nWA Akbarbarz 6283890109310', 'pink'))
+	console.log(color('[ SOURCE CODE INI DI RECODE OLEH ARIL\nDENGAN AUTHOR ARIL STORE ]\n\n', 'orange'), color('\n======TERIMAKASIH BANYAK KEPADA======\n•MHANKBARBAR\n•ARIL STORE\n•HRUTZOFFC\n•KURRXD\n•NINO\n•IKYADS\n•KurrXd\n•DENARA BOT\n•DAPPAUHUY\n•DAN CREATOR BOT LAINNYA', 'yellow'))
+	console.log(color('\n\nSARAN JANGAN DI JUAL ULANG BRO\nKALAU ADA YG MINTA SURUH CHAT SAYA\nWA ARIL STORE 62881024358619', 'pink'))
 	console.log(color('\n\n[ SAYA DOAKAN YANG SUBSCRIBE LANCAR, ANTI ERROR PAS RECODE DAN YG TIDAK, YA TAU LAH AKIBAT NYA', 'red'))
-	dha.browserDescription = ["AKBAR BOTZ", "Chrome", "3.0.0"];
+	dha.browserDescription = ["ARIL BOTZ", "Chrome", "3.0.0"];
 
 	// Menunggu QR
 	dha.on('qr', () => {
@@ -36,7 +36,7 @@ const starts = async (dha = new WAConnection()) => {
 	// Menghubungkan
 	fs.existsSync(`./${setting.sessionName}.json`) && dha.loadAuthInfo(`./${setting.sessionName}.json`)
 	dha.on('connecting', () => {
-		console.log(color('[ AKBAR BOTZ ]', 'yellow'), color('PROSES NYAMBUNG...'));
+		console.log(color('[ ARIL BOTZ ]', 'yellow'), color('PROSES NYAMBUNG...'));
 	})
 const spinner = { 
   "interval": 120,
