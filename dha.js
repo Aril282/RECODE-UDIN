@@ -864,14 +864,14 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 ➤ *User :* ${pushname}
 
 *Request fitur?* Ketik ${prefix}owner Ya!
-*Sewa bot?* Chat wa.me/6283890109310`
+*Sewa bot?* Chat wa.me/62881024358619`
                buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: 'ALL MENU'},type:1},{buttonId: `${prefix}rules`,buttonText:{displayText: 'RULES BOT'},type:1},{buttonId:`${prefix}store`,buttonText:{displayText:'SIMPLE BUTTON MENU'},type:1}]
 
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/sherlynn.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: '© Creator Akbar Botz7', imageMessage: imageMsg,
+               footerText: '© Creator Aril Botz7', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -889,7 +889,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
                buttonsMessage = {
                contentText: `${rolegtli}`,
-               footerText: '© Creator Akbar Botz', imageMessage: imageMsg,
+               footerText: '© Creator Aril Botz', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1502,11 +1502,11 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
        case 'sewabot':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
               teksnya = `*[ PRICE LIST ]*
-*Sewa Bot Akbar Botz ON 24 Jam*
-*1 Hari :* 5K
-*1 Minggu :* 10K
-*1 Bulan :* 15K
-* Manen :* 20K
+*Sewa Bot Aril Botz ON 24 Jam*
+*1 Hari :* 2K
+*1 Minggu :* 5K
+*1 Bulan :* 10K
+* Manen :* 15K
 *Minat untuk Sewa Bot?* Chat Owner!
 *Dengan cara, Ketik* ${prefix}owner *Ya!*`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
@@ -1515,11 +1515,11 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
 case 'bayar':
 gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
 teksnya = `*[ PAYMENT ]*
-*Gopay :* SCAN PP
-*Dana :* 083890109310
-*Ovo :* 083890109310
-*Linkaja :*083890109310
-*[ © Creator Akbar Botz ]*`
+*Gopay :* 6283895741114
+*Dana :* 0881024358619
+*Ovo :* 0881024358619
+*Linkaja :*0881024358619
+*[ © Creator Aril Botz ]*`
         dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
  
@@ -1570,14 +1570,14 @@ case 'buttonpen':
               teksnya = `*「NULIS MENU」*
 *き⃟🦈 ${prefix}nulis*
 *Ketik ${prefix}owner, Untuk Request Fitur*
-© Creator Akbar Botz`
+© Creator Aril Botz`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'buttongame':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
               teksnya = `*「GAME MENU」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
-© Creator Akbar Botz
+© Creator Aril Botz
 
 き⃟🦈 ${prefix}limitgame*
 *き⃟🦈 ${prefix}slot*
@@ -1606,7 +1606,7 @@ case 'buttongc':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
               teksnya = `*「GRUP MENU」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
-© Creator Akbar Botz
+© Creator Aril Botz
 
 *き⃟🦈 ${prefix}groupsetting*
 *き⃟🦈 ${prefix}getbio* _reply_
@@ -1638,7 +1638,7 @@ case 'buttonwibu':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
               teksnya = `*「WIBU MENU」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
-© Creator Akbar Botz
+© Creator Aril Botz
 
 *き⃟🦈 ${prefix}loli*
 *き⃟🦈 ${prefix}manga*
@@ -1670,7 +1670,7 @@ case 'buttonown':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
               teksnya = `*「OWNER MENU」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
-© Creator Akbar Botz
+© Creator Aril Botz
 
 *き⃟🦈️ ${prefix}bc* _teks_
 *き⃟🦈 ${prefix}tobc* _audio_
